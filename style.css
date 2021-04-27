@@ -1,61 +1,45 @@
-                                                body {
-                                                    font-size: 136%;
-                                                    width: 100%;
-                                                    top: 93%;
-                                                    margin-bottom: 93;
-                                                    text-align: center;
-                                                    background-image: url("img/Cifras_7.png");
-                                                    background-position: 25% 30%;
-                                                    background-size: cover;
-                                                    margin: 0;
-                                                    font-family: Arial, Helvetica, sans-serif;
-                                                }
-                                                
-                                                .roboto {
-                                                    font-family: 'Roboto', sans-serif;
-                                                    font-weight: 550;
-                                                    color: black;
-                                                }
-                                                
-                                                .w-50 {
-                                                    width: 100%;
-                                                    padding: 20px;
-                                                    margin: 20px 20px;
-                                                    left: 10px;
-                                                    text-align: center;
-                                                    justify-content: center;
-                                                    border-radius: solid 5px color black;
-                                                }
-                                                
-                                                .message-box {
-                                                    height: 7.65vh;
-                                                    margin: 1% 0 2% 0;
-                                                    padding: 2%;
-                                                    font-weight: normal;
-                                                    font-size: 1.2rem;
-                                                    border: 3px solid goldenrod;
-                                                    border-radius: 10px;
-                                                    outline: none;
-                                                    resize: none;
-                                                    overflow: hidden;
-                                                }
-                                                
-                                                .btn-style {
-                                                    margin: 1%;
-                                                    padding: 1%;
-                                                    color: gold;
-                                                    border-radius: 7px;
-                                                    cursor: pointer;
-                                                    transition: 0.2s;
-                                                    border-color: gold;
-                                                }
-                                                
-                                                .btn-style:focus {
-                                                    background-color: gold;
-                                                    color: black;
-                                                }
-                                                
-                                                .btn-style:disabled {
-                                                    background-color: rgb(65, 66, 66);
-                                                    cursor: no-drop;
-                                                }
+body {
+    background: url('img/Cifras_7.png') no-repeat center center;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 136%;
+    width: 99%;
+    top: auto;
+    margin-bottom: 120;
+}
+
+#texto {
+    font: 20px Arial, Sans-serif;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    border: 3px solid gold;
+    border-radius: 5px;
+}
+
+#deslocamento {
+    text-align: center;
+    width: 130px;
+    height: 20px;
+    border: 2px solid gold;
+}
+
+#textocifrado {
+    text-align: center;
+    font: 28px Arial, Sans-serif;
+    line-height: 50px;
+    width: 400px;
+    height: 100px;
+    border: 3px solid gold;
+    border-radius: 5px;
+}
+
+.button1 {
+    background-color: gold;
+    border-radius: 2px;
+    width: 90px;
+    height: 30px;
+    border: 2px solid black;
+}

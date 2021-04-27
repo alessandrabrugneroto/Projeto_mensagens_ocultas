@@ -1,62 +1,40 @@
-<!DOCTYPE html>
 <html>
 
-<html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Patua+One|Roboto:400,500|Raleway:500,700" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="style.css">
+    <script src="projeto.js"></script>
 
-    <script type="text/javascript" src="projeto.js"></script>
-    <title>Formulario </title>
+    <title>Cifra-Cesar</title>
 
 </head>
 
 <body>
-    </head>
 
-    <body class="roboto">
-        <main class="d-flex j-center wrap">
-            <h1 class="w-100 title-font"></h1>
-            <p class="w-100">Insira a mensagem na caixa abaixo e clique na opção desejada:</p>
-            <div class="d-flex j-center w-50" id="message-container">
+    <div>
+        <p><strong>Escreva sua mensagem</strong> </p><input type="text" id="texto">
+        <p><strong>Selecione um número </strong></p><input type="number" id="deslocamento">
+    </div>
 
+    <div>
+        <br>
+        <button class=button1 onclick="cifrar()">Codificar</button>
+        <button class=button1 onclick="decifrar()">Decodificar</button>
+    </div>
+    <input type="radio" name="level" id="GCSE" value="GCSE" onclick="alert('Codificar Mensagem!');" />Base 64
 
-                <div class="liguagem">
+    <input type="radio" name="level" id="GCSE" value="GCSE" onclick="alert('Decodificar Mensagem!');" />Cifra-Cesar
 
-                    <select onchange="ocultar(this.value)">
-                <option value="1">base64</option>
-                <option value="2">Cifra-Cesar</option>
+    <br></br>
 
-
-                <p>
-                    <input type="radio" name="level" id="GCSE" value="GCSE" onclick="alert('Codificar Mensagem!');" />Base 64
-
-                    <input type="radio" name="level" id="GCSE" value="GCSE" onclick="alert('Decodificar Mensagem!');" />Cifra-Cesar
-
-                   </div>
-
-
-            <div class="w-100">
-                <button class="btn-style roboto" id="cypher">Codificar</button>
-                <button class="btn-style roboto" id="decypher">Descodificar</button>
-
-            </div>
-
-
-             <div class="result-container d-flex wrap j-center w-40" id="results"></div>
-           <textarea type="text" id="message-box" class="message-box w-40 roboto" placeholder=""></textarea>
-
-
-</div>
-
-        </main>
+    <div>
+        <p><label for="textocifrado"><strong>Essa é sua mensagem</strong></label></p>
+        <textarea id="textocifrado" name="Seu Texto"></textarea>
 
 
 
-    </body>
+
+</body>
 
 </html>
