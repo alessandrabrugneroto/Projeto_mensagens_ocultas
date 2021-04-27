@@ -11,28 +11,38 @@
 </head>
 
 <body>
-
+<--!Inicio mensagem texto e selecionador-->
     <div>
         <p><strong>Escreva sua mensagem</strong> </p><input type="text" id="texto">
         <p><strong>Selecione um número </strong></p><input type="number" id="deslocamento">
     </div>
-
+    <--!Fim mensagem texto  e selecionador--->
+    
+   <--!Inicio Botão codificar e decodificar-->
     <div>
         <br>
         <button class=button1 onclick="cifrar()">Codificar</button>
         <button class=button1 onclick="decifrar()">Decodificar</button>
     </div>
+    
+    <--!Fim Botão codificar e decodificar-->
+        
+        
+    <--!Inicio Botão escolha-->
+        
     <input type="radio" name="level" id="GCSE" value="GCSE" onclick="alert('Codificar Mensagem!');" />Base 64
 
-    <input type="radio" name="level" id="GCSE" value="GCSE" onclick="alert('Decodificar Mensagem!');" />Cifra-Cesar
-
+   <input type="radio" name="level" id="GCSE" value="GCSE" onclick="alert('Decodificar Mensagem!');" />Cifra-Cesar
+   <--!Fim Botão  escolha-->
     <br></br>
 
+    <--!Inicio resultado mensagem-->
     <div>
-        <p><label for="textocifrado"><strong>Essa é sua mensagem</strong></label></p>
-        <textarea id="textocifrado" name="Seu Texto"></textarea>
+      <p><label for="textocifrado"><strong>Essa é sua mensagem</strong></label></p>
+      <textarea id="textocifrado" name="Seu Texto"></textarea>
+     <--!fim resultado mensagem-->
 
-
+    </div>
 
 
 </body>
