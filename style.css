@@ -13,7 +13,7 @@ body {
 /*  fim estilo da imagem*/
 
 
-/*estilo da letra da mensagem */
+
 #texto {
     font: 18px Arial, Sans-serif;
     text-align: center;
@@ -22,7 +22,7 @@ body {
     border: 3px solid gold;
     border-radius: 5px;
 }
-/*estilo da letra da mensagem */
+
 
 
 /*estilo da seleção de encrementação*/
