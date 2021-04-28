@@ -1,15 +1,21 @@
+
+
+//caixa recebe a mensagem //
 function cifrar() {
     let texto = document.getElementById("texto").value;
     let numDesloc = parseInt(document.getElementById("deslocamento").value);
 
     document.getElementById("textocifrado").innerHTML = cypherCifrar(texto, numDesloc);
 }
+//caixa recebe a mensagem //
 
+//selecionar encremento//
 function cypherCifrar(texto, numDesloc) {
     let textoArray = [];
     let deslocamentoArray = [];
     let textoCodificado = "";
-
+//
+    //busca das letras//
     for (let i = 0; i < texto.length; i++) {
         textoArray.push(texto.charCodeAt(i));
     }
@@ -26,10 +32,14 @@ function cypherCifrar(texto, numDesloc) {
 
     for (g = 0; g < deslocamentoArray.length; g++) {
         textoCodificado += String.fromCharCode(deslocamentoArray[g]);
+        //busca das letras//
+        
+        //retorna a mensagem traduzida//
     }
     return textoCodificado;
 }
-
+//
+//busca das letras//
 function decifrar() {
     let texto = document.getElementById("texto").value;
     let numDesloc = parseInt(document.getElementById("deslocamento").value);
@@ -58,6 +68,7 @@ function cypherDec(texto, numDesloc) {
 
     for (g = 0; g < deslocamentoArray.length; g++) {
         textoCodificado += String.fromCharCode(deslocamentoArray[g]);
+        //retorna a mensagem traduzida//
     }
     return textoCodificado;
 }
