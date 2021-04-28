@@ -1,3 +1,4 @@
+/*estilo da imagem*/
 body {
     background: url('img/Cifras_7.png') no-repeat center center;
     position: absolute;
@@ -9,7 +10,10 @@ body {
     top: auto;
     margin-bottom: 120;
 }
+/*  fim estilo da imagem8*/
 
+
+/*estilo da letra da mensagem*/
 #texto {
     font: 18px Arial, Sans-serif;
     text-align: center;
@@ -18,14 +22,19 @@ body {
     border: 3px solid gold;
     border-radius: 5px;
 }
+/*estilo da letra da mensagem*/
 
+
+/*estilo da seleção de encrementação*/
 #deslocamento {
     text-align: center;
     width: 130px;
     height: 20px;
     border: 2px solid gold;
 }
+/*  fim estilo da seleção de encrementação*/
 
+/*estilo da letra da mensagem*/
 #textocifrado {
     text-align: center;
     font: 28px Arial, Sans-serif;
@@ -35,7 +44,7 @@ body {
     border: 3px solid gold;
     border-radius: 5px;
 }
-
+/*estilo  botão*/
 .button1 {
     background-color: gold;
     border-radius: 2px;
